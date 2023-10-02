@@ -3,7 +3,6 @@
   font-family: "Work Sans";
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 a {
@@ -13,7 +12,6 @@ a {
 
 nav {
   display: flex;
-
   align-items: center; /* Vertically center items in the nav */
   margin: 90px 140px; /* Adjust the margin as needed */
   background-color: #fff; /* Optional background color for the navigation bar */
@@ -61,6 +59,30 @@ button img {
   margin-left: 10px;
 }
 @media screen and (max-width: 567px) {
-  .nav {
+  nav {
+    flex-direction: column;
+    padding: 0px 0px;
+    margin: 60px 0px;
+  }
+  .contact-us {
+    flex-direction: column;
+    padding: 30px 0px;
+    margin: 0px 0px;
+  }
+  .g {
+    padding-left: 15px;
+    margin: 0px 0px;
+  }
+  button {
+    padding: 10px 25px;
+    margin: 0px 0px;
+  }
+  .about-us {
+    padding: 0px 0px;
+    margin: 0px 0px;
+  }
+  .devlopers {
+    padding: 30px 0px;
+    margin: 0px 0px;
   }
 }
