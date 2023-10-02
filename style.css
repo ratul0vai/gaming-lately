@@ -58,6 +58,14 @@ button {
 button img {
   margin-left: 10px;
 }
+.image-text-container {
+  position: relative;
+}
+.key-attention {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
 @media screen and (max-width: 567px) {
   nav {
     flex-direction: column;
