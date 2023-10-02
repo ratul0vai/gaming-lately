@@ -1,6 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700;800&display=swap");
 * {
-  font-family: "Work Sans";
+  font-family: "Work Sans", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -13,10 +12,11 @@ a {
 
 nav {
   display: flex;
-
+  justify-content: space-between; /* Change from space-evenly to space-between */
   align-items: center; /* Vertically center items in the nav */
-  margin: 90px 140px; /* Adjust the margin as needed */
+  margin-top: 20px; /* Adjust the margin as needed */
   background-color: #fff; /* Optional background color for the navigation bar */
+  padding: 10px; /* Optional padding for the navigation bar */
 }
 
 .gamer-title {
@@ -50,17 +50,13 @@ button {
   display: flex; /* Add flex properties for alignment */
   align-items: center; /* Vertically center the content */
 }
-.about-us {
-  margin-left: 800px;
-}
-.devlopers {
-  margin-left: 10px;
+
+/* Add spacing between the Follow us text and icons */
+button a.about-us {
   margin-right: 10px;
 }
+
+/* Add spacing between social media icons */
 button img {
   margin-left: 10px;
-}
-@media screen and (max-width: 567px) {
-  .nav {
-  }
 }
