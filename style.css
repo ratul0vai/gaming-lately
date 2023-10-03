@@ -58,12 +58,16 @@ button {
 button img {
   margin-left: 10px;
 }
-.image-text-container {
+
+/* main section starts form here */
+
+.main-container {
+  display: flex;
   position: relative;
 }
-.key-attention {
+.paragraph-main {
   position: absolute;
-  top: 20%;
+  top: 30%;
   left: 10%;
 }
 @media screen and (max-width: 567px) {
