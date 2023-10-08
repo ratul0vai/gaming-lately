@@ -1,0 +1,55 @@
+@media screen and (max-width: 567px) {
+  nav {
+    flex-direction: column;
+    padding: 0px 0px;
+    margin: 60px 0px;
+  }
+  .contact-us {
+    flex-direction: column;
+    padding: 30px 0px;
+    margin: 0px 0px;
+  }
+  .g {
+    padding-left: 15px;
+    margin: 0px 0px;
+  }
+  button {
+    padding: 10px 25px;
+    margin: 0px 0px;
+  }
+  .about-us {
+    padding: 0px 0px;
+    margin: 0px 0px;
+  }
+  .devlopers {
+    padding: 30px 0px;
+    margin: 0px 0px;
+  }
+  /*section mid*/
+
+  .main-container-text {
+    margin-left: 0px;
+  }
+  .main-container {
+    flex-direction: column-reverse;
+    margin: 0px 0px;
+  }
+  .main-container-text > img {
+    width: 200%;
+    height: 660%;
+  }
+  .main-container-img > img {
+    width: 170%;
+    padding-left: 10px;
+  }
+  .main-container-text,
+  .main-container-img > img {
+    margin-left: 10px;
+    padding-top: 50px;
+  }
+  .overlay-text {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+  }
+}
