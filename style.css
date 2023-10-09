@@ -91,8 +91,12 @@ button img {
 }
 .social-icons {
   display: flex;
-
   flex-direction: column;
+  color: #534c64;
+
+  font-size: 14px;
+
+  font-weight: 500;
 }
 .fa-solid {
   margin-top: 10px;
@@ -118,7 +122,79 @@ button img {
   text-transform: uppercase;
 }
 .btn {
-  padding-top: 30px;
+  padding-top: 25px;
   display: flex;
   gap: 20px;
+}
+.pink-btn {
+  color: #fff;
+  border-radius: 48px;
+  background: var(
+    --Linear,
+    linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%)
+  );
+}
+.blue-btn {
+  color: white;
+  border-radius: 48px;
+  background: #4ec5f7;
+}
+/* secondry-main-container starts from here */
+.secondry-main-container {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 13.13%,
+    rgba(255, 66, 165, 0.03) 87.94%
+  );
+  display: flex;
+  margin: 40px 123px;
+
+  width: 1650px;
+}
+
+.toys-pic {
+  width: 50%;
+}
+.toys-text {
+  width: 50%;
+  text-align: right;
+  padding-right: 40px;
+  padding-top: 50px;
+}
+.we-are-gamer {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 20px;
+}
+.we-are-gamer-dis {
+  color: #534c64;
+  text-align: right;
+
+  font-size: 18px;
+
+  font-weight: 400;
+}
+.we-are-gamer-0 {
+  color: #534c64;
+
+  font-size: 24px;
+
+  font-weight: 500;
+}
+.we-are-gamer-0 > span {
+  color: #534c64;
+
+  font-size: 32px;
+
+  font-weight: 700;
+}
+.know-more-pink {
+  border-radius: 48px;
+  background: var(
+    --Linear,
+    linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%)
+  );
+  color: white;
 }
