@@ -58,4 +58,33 @@
     top: 15%;
     left: 20%;
   }
+  /* secondry-main-container starts from here */
+  .secondry-main-container {
+    flex-direction: column;
+    margin: 0px 0px;
+    width: 100%;
+  }
+  .secondry-main-container > img {
+    width: 100%;
+  }
+  .toys-text {
+    padding-left: 127px;
+    text-align: center;
+    padding-right: 110px;
+  }
+  .we-are-gamer {
+    text-align: center;
+  }
+  .we-are-gamer-dis {
+    text-align: center;
+  }
+  .that-button-alignment {
+    justify-content: center;
+  }
+  .we-are-gamer-0 {
+    border: 1px solid blue;
+  }
+  .we-are-gamer-0 > p {
+    border: 1px solid saddlebrown;
+  }
 }
