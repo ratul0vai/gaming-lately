@@ -149,7 +149,7 @@ button img {
   display: flex;
 
   margin: 40px 120px;
-  width: 1650px;
+  width: 1400px;
 }
 
 .secondry-main-container > img {
@@ -160,7 +160,7 @@ button img {
   text-align: right;
   padding-right: 40px;
   padding-top: 50px;
-  border: 1px solid red;
+  padding-bottom: 90px;
 }
 .we-are-gamer {
   background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);

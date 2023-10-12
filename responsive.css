@@ -81,10 +81,11 @@
   .that-button-alignment {
     justify-content: center;
   }
-  .we-are-gamer-0 {
-    border: 1px solid blue;
-  }
+  
   .we-are-gamer-0 > p {
-    border: 1px solid saddlebrown;
-  }
+  
+    font-size: 22px;
+    font-weight: 700;
+    padding-top: 30px;
+    
 }
