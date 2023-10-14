@@ -13,7 +13,7 @@ a {
 nav {
   display: flex;
   align-items: center; /* Vertically center items in the nav */
-  margin: 90px 140px;
+  margin: 90px 200px;
   background-color: #fff; /* Optional background color for the navigation bar */
 }
 
@@ -74,10 +74,9 @@ button img {
   left: 20%;
 }
 .main-container {
-  max-width: 1400px;
+  max-width: 2000px;
   min-height: 50px;
   display: flex;
-  margin: 0px 125px;
 }
 .main-container-img {
   width: 50%;
@@ -148,8 +147,7 @@ button img {
   );
   display: flex;
 
-  margin: 40px 120px;
-  width: 1400px;
+  width: 1850px;
 }
 
 .secondry-main-container > img {
