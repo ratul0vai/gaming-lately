@@ -297,44 +297,41 @@ p {
 .semi-emerge {
   position: relative;
 }
-.lower-mid-section {
-  display: flex;
-  margin-left: 300px;
-  padding-top: 50px;
-}
-.first-image > img {
-  width: 60%;
-}
 .second-image > img {
   width: 30%;
   position: absolute;
   top: 60%;
   left: -10%;
 }
-.play-instantly {
+.first-image > img {
+  width: 60%;
+}
+
+.lower-mid-section {
+  display: flex;
+
+  justify-content: space-evenly;
+}
+.lower-mid-dp > h1 {
   background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  padding-left: 320px;
+  text-align: right;
 }
-.no-downloads {
-  padding-left: 120px;
+.now-downloads {
   color: #0b0223;
-  font-size: 30px;
+  font-family: Work Sans;
+  font-size: 48px;
+  text-align: right;
   font-weight: 700;
   line-height: 60px;
-  border: #0b0223 1px solid;
 }
+
 .lower-mid-dp > p {
   color: #534c64;
-  text-align: right;
-
+  margin-left: 37%;
   font-size: 18px;
-  width: 50%;
+  text-align: end;
   font-weight: 400;
-  line-height: 30px;
-}
-.lower-mid-dp {
-  border: 1px solid salmon;
 }

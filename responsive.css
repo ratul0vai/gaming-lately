@@ -114,4 +114,41 @@
   .mid-image {
     width: 70%;
   }
+  /*lower-mid-section*/
+  .lower-mid-section {
+    flex-direction: column;
+    margin: 0px 0px;
+    padding: 0px 0px;
+  }
+  .second-image > img {
+    width: 30%;
+    position: absolute;
+    top: 60%;
+    left: -10%;
+  }
+  .lower-mid-dp > h1 {
+    text-align: center;
+    padding-top: 30px;
+  }
+  .lower-mid-dp > p {
+    text-align: center;
+
+    padding-bottom: 30px;
+    margin: 0px;
+  }
+  .now-downloads {
+    text-align: center;
+  }
+  .semi-emerge {
+    margin-left: 70px;
+  }
+  .second-image > img {
+    width: 30%;
+    position: absolute;
+    top: 60%;
+    left: -10%;
+  }
+  .first-image > img {
+    width: 80%;
+  }
 }
