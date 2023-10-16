@@ -335,3 +335,75 @@ p {
   text-align: end;
   font-weight: 400;
 }
+
+.final-mid-section {
+  display: flex;
+  margin-top: 7%;
+  background: linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%);
+
+  padding-left: 60px;
+}
+.final-mid-section-text > h1 {
+  padding-top: 60px;
+  padding-left: 13px;
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  padding-bottom: 20px;
+}
+.final-mid-section-text > p {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+.two-multi-section {
+  display: flex;
+  padding-top: 40px;
+
+  padding-bottom: 40px;
+}
+.multi-section-1 > p {
+  text-align: left;
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px; /* 200% */
+  width: 50%;
+}
+.multi-section-2 > p {
+  color: #fff;
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px; /* 200% */
+  width: 50%;
+}
+.all-position-buttons > button {
+  border-radius: 48px;
+  background: #fff;
+}
+.all-position-buttons-text {
+  background: var(
+    --Linear,
+    linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.final-mid-section-text > p {
+  width: 680px;
+}
+.final-mid-section-img {
+  width: 100%;
+}

@@ -151,4 +151,19 @@
   .first-image > img {
     width: 80%;
   }
+  .final-mid-section {
+    flex-direction: column;
+  }
+  .final-mid-section-text > h1 {
+    padding-left: 0px;
+  }
+  .final-mid-section-img > img {
+    padding-bottom: 40px;
+    padding-left: 0px;
+    padding-top: 40px;
+    width: 90%;
+  }
+  .final-mid-section-text > p {
+    width: 80%;
+  }
 }
