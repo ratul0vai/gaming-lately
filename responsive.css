@@ -166,4 +166,10 @@
   .final-mid-section-text > p {
     width: 80%;
   }
+  .multi-section-1 > p {
+    width: 60%;
+  }
+  .multi-section-2 > p {
+    width: 60%;
+  }
 }
