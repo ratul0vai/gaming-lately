@@ -407,3 +407,111 @@ p {
 .final-mid-section-img {
   width: 100%;
 }
+/* game-list-option */
+.game-list {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 13.13%,
+    rgba(255, 66, 165, 0.03) 87.94%
+  );
+  width: 100%;
+  height: auto;
+}
+.game-list-options {
+  padding-top: 30px;
+  padding-bottom: 40px;
+
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  margin-left: 30%;
+  gap: 30px;
+}
+.game-list-options > button {
+  border-radius: 50px;
+  border: 1.5px solid var(--Linear, #ff42a5);
+  background: #fff;
+}
+.game-list-options > button > span {
+  background: var(
+    --Linear,
+    linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/*footer-section*/
+.footer-section {
+  background: #0b0223;
+  text-align: center;
+}
+.gamer-pic-text {
+  display: flex;
+  margin-left: 45%;
+  align-items: center;
+  width: 16%;
+  padding-top: 40px;
+}
+
+.top-g {
+  background: linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-size: 45px;
+
+  font-weight: 700;
+}
+.white-text {
+  color: white;
+  font-family: Work Sans;
+  font-size: 45px;
+
+  font-weight: 700;
+}
+.six-bullets-points {
+  display: grid;
+  grid-template-columns: repeat(6, 0.12fr);
+  width: 50%;
+  margin-left: 32%;
+
+  padding: 10px;
+
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-top: 30px;
+}
+.six-image-points {
+  display: flex;
+  gap: 30px;
+  margin-left: 42.5%;
+  padding-top: 30px;
+}
+.outro-text {
+  display: grid;
+  color: rgba(255, 255, 255, 0.6);
+  gap: 35px;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-top: 30px;
+}
+.disclaimer {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}

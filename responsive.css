@@ -172,4 +172,34 @@
   .multi-section-2 > p {
     width: 60%;
   }
+  .game-list-options {
+    display: grid;
+    grid-template-columns: repeat(2, 0.12fr);
+    padding: 0px;
+    margin: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 7px;
+    gap: 15px;
+  }
+  /*footer-optimization*/
+  .gamer-pic-text {
+    width: 60%;
+    align-items: center;
+    margin-left: 80px;
+  }
+  .six-bullets-points {
+    padding-top: 15px;
+    margin: 0px;
+    width: auto;
+    grid-template-columns: repeat(3, 0.7fr);
+    row-gap: 30px;
+  }
+  .six-image-points {
+    margin-left: 60px;
+    padding-left: 0px;
+  }
+  .outro-text {
+    margin-left: 0px;
+  }
 }
